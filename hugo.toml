@@ -31,3 +31,19 @@ theme = 'PaperMod'
   name = "关于"
   url = "/about"
   weight = 40
+  # 在 [params] 下添加
+  defaultTheme = "auto"  # 跟随系统，也可设为 "dark" 或 "light"
+
+[params]
+  customCSS = ["css/custom.css"]
+
+[markup]
+  [markup.highlight]
+    style = "dracula"  # 高亮主题：dracula, monokai, github 等
+    lineNos = true      # 显示行号
+    lineNumbersInTable = true
+    noClasses = false
+[[menu.main]]
+  name = "友链"
+  url = "/links"
+  weight = 60
