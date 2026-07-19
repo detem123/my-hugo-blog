@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on 我的具身智能学习笔记</title>
+    <title>Tags on detem123 | 具身智能笔记</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on 我的具身智能学习笔记</description>
+    <description>Recent content in Tags on detem123 | 具身智能笔记</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>zh-CN</language>
     <lastBuildDate>Sun, 19 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -20,6 +20,62 @@
       <link>http://localhost:1313/tags/%E9%A1%B9%E7%9B%AE/</link>
       <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/%E9%A1%B9%E7%9B%AE/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VLA</title>
+      <link>http://localhost:1313/tags/vla/</link>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vla/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>论文精读</title>
+      <link>http://localhost:1313/tags/%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/</link>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>复盘</title>
+      <link>http://localhost:1313/tags/%E5%A4%8D%E7%9B%98/</link>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E5%A4%8D%E7%9B%98/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>面试</title>
+      <link>http://localhost:1313/tags/%E9%9D%A2%E8%AF%95/</link>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E9%9D%A2%E8%AF%95/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>学习路线</title>
+      <link>http://localhost:1313/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</link>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>资源</title>
+      <link>http://localhost:1313/tags/%E8%B5%84%E6%BA%90/</link>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E8%B5%84%E6%BA%90/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>强化学习</title>
+      <link>http://localhost:1313/tags/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>无人机</title>
+      <link>http://localhost:1313/tags/%E6%97%A0%E4%BA%BA%E6%9C%BA/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%E6%97%A0%E4%BA%BA%E6%9C%BA/</guid>
       <description></description>
     </item>
   </channel>

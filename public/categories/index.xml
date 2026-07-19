@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on 我的具身智能学习笔记</title>
+    <title>Categories on detem123 | 具身智能笔记</title>
     <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on 我的具身智能学习笔记</description>
+    <description>Recent content in Categories on detem123 | 具身智能笔记</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>zh-CN</language>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

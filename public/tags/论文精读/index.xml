@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>论文精读 on detem123 | 具身智能笔记</title>
+    <link>http://localhost:1313/tags/%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/</link>
+    <description>Recent content in 论文精读 on detem123 | 具身智能笔记</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 12 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>论文精读：OpenVLA — 开源视觉-语言-动作模型</title>
+      <link>http://localhost:1313/posts/openvla-paper/</link>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/openvla-paper/</guid>
+      <description>&lt;h2 id=&#34;动机&#34;&gt;动机&lt;/h2&gt;
+&lt;p&gt;RT-2 虽然强大，但模型闭源且规模过大（55B），普通实验室难以复现和微调。OpenVLA 使用 7B 参数的 VLM，完全开源，并验证了较小的 VLA 也能取得竞争力性能。&lt;/p&gt;
+&lt;h2 id=&#34;方法&#34;&gt;方法&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;基于 Prismatic-7B VLM，使用 &lt;code&gt;SigLIP&lt;/code&gt; 作为视觉编码器&lt;/li&gt;
+&lt;li&gt;动作通过离散化 token 表示，与文本 token 拼接后自回归生成&lt;/li&gt;
+&lt;li&gt;在 Open X-Embodiment 数据集上微调&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;关键结果&#34;&gt;关键结果&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在多个真实机器人任务上泛化能力接近 RT-2-X（55B），但模型大小仅 7B&lt;/li&gt;
+&lt;li&gt;支持 LoRA 微调，可在消费级 GPU 上完成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;我的思考&#34;&gt;我的思考&lt;/h2&gt;
+&lt;p&gt;OpenVLA 是当前开源社区的事实标准，面试中被问“你用过哪些 VLA 模型”时可直接引用。它的轻量化设计也使得学术研究更容易迭代。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

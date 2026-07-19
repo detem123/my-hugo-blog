@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>项目 on 我的具身智能学习笔记</title>
+    <title>项目 on detem123 | 具身智能笔记</title>
     <link>http://localhost:1313/tags/%E9%A1%B9%E7%9B%AE/</link>
-    <description>Recent content in 项目 on 我的具身智能学习笔记</description>
+    <description>Recent content in 项目 on detem123 | 具身智能笔记</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>zh-CN</language>
     <lastBuildDate>Sun, 19 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E9%A1%B9%E7%9B%AE/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -31,6 +31,34 @@
 &lt;h2 id=&#34;踩坑记录&#34;&gt;踩坑记录&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;编码器噪声导致里程计漂移，通过扩展卡尔曼滤波融合 IMU 解决&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>无人机强化学习避障项目总结</title>
+      <link>http://localhost:1313/posts/drone-rl-project/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/drone-rl-project/</guid>
+      <description>&lt;h2 id=&#34;项目背景&#34;&gt;项目背景&lt;/h2&gt;
+&lt;p&gt;作为空天机械方向的研究生，我对无人机自主飞行充满兴趣。本项目使用深度强化学习训练四旋翼在未知障碍环境中完成高速避障。&lt;/p&gt;
+&lt;h2 id=&#34;仿真环境&#34;&gt;仿真环境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;基于 AirSim + Unreal Engine&lt;/li&gt;
+&lt;li&gt;自定义森林场景，随机生成树木&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;算法&#34;&gt;算法&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;采用 SAC 算法，状态为单目 RGB 图像和 IMU 数据&lt;/li&gt;
+&lt;li&gt;奖励函数包含前进速度、碰撞惩罚、平滑性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;实验结果&#34;&gt;实验结果&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在陌生场景中成功率超过 85%&lt;/li&gt;
+&lt;li&gt;通过 domain randomization（光照、纹理变化）提高了 sim-to-real 潜力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;踩坑记录&#34;&gt;踩坑记录&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;训练初期撞机过多导致探索不足，加入好奇心驱动缓解&lt;/li&gt;
+&lt;li&gt;AirSim 在 Windows 下性能不佳，迁移到 Linux + Docker 后 FPS 提升 40%&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>

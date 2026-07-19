@@ -5,10 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Posts | 我的具身智能学习笔记</title>
+<title>Posts | detem123 | 具身智能笔记</title>
 <meta name="keywords" content="">
-<meta name="description" content="Posts - 我的具身智能学习笔记">
-<meta name="author" content="">
+<meta name="description" content="Posts - detem123 | 具身智能笔记">
+<meta name="author" content="detem123">
 <link rel="canonical" href="http://localhost:1313/posts/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
@@ -71,7 +71,7 @@
     <header class="header">
     <nav class="header-nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="我的具身智能学习笔记 (Alt + H)">我的具身智能学习笔记</a>
+            <a href="http://localhost:1313/" accesskey="h" title="detem123 | 具身智能笔记 (Alt + H)">detem123 | 具身智能笔记</a>
             <div class="logo-switches">
                 <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
@@ -96,11 +96,47 @@
             </div>
         </div>
         <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/" title="首页">
+                    <span>首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archives" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search" title="搜索">
+                    <span>搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/links" title="友链">
+                    <span>友链</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header">
+<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
   <h1>
     Posts
   </h1>
@@ -117,13 +153,74 @@
   </div>
   <footer class="entry-footer">
 
-<span title='2026-07-19 00:00:00 +0000 UTC'>July 19, 2026</span></footer>
+<span title='2026-07-19 00:00:00 +0000 UTC'>July 19, 2026</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>28 words</span>&nbsp;·&nbsp;<span>detem123</span></footer>
   <a class="entry-link" aria-label="post link to ROS2 小车自主导航项目" href="http://localhost:1313/posts/ros2-car/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">论文精读：OpenVLA — 开源视觉-语言-动作模型
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>动机 RT-2 虽然强大，但模型闭源且规模过大（55B），普通实验室难以复现和微调。OpenVLA 使用 7B 参数的 VLM，完全开源，并验证了较小的 VLA 也能取得竞争力性能。
+方法 基于 Prismatic-7B VLM，使用 SigLIP 作为视觉编码器 动作通过离散化 token 表示，与文本 token 拼接后自回归生成 在 Open X-Embodiment 数据集上微调 关键结果 在多个真实机器人任务上泛化能力接近 RT-2-X（55B），但模型大小仅 7B 支持 LoRA 微调，可在消费级 GPU 上完成 我的思考 OpenVLA 是当前开源社区的事实标准，面试中被问“你用过哪些 VLA 模型”时可直接引用。它的轻量化设计也使得学术研究更容易迭代。
+</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-07-12 00:00:00 +0000 UTC'>July 12, 2026</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>38 words</span>&nbsp;·&nbsp;<span>detem123</span></footer>
+  <a class="entry-link" aria-label="post link to 论文精读：OpenVLA — 开源视觉-语言-动作模型" href="http://localhost:1313/posts/openvla-paper/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">面试复盘：具身智能 VLA 算法岗
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>背景 公司：某具身智能独角兽（暂不公开） 岗位：VLA 模型算法实习生 流程：线上视频，1h 技术面 面试内容 1. 自我介绍 重点介绍了 ROS2 小车项目和目前在学的 π0 模型，提到了对 Sim-to-Real 的理解。
+2. 手撕代码 实现一个简单的 Transformer Encoder（Python），要求写出 self-attention 和 position-wise FFN。写完后被问复杂度及优化方向。
+3. 项目深挖 “你的小车项目里，Nav2 用的全局规划器是哪种？为什么不用纯端到端学习？” “Cartographer 的回环检测原理是什么？” “如果地图规模扩大 10 倍，你如何优化？” 4. 开放问题 “Sim-to-Real Gap 主要有哪些来源？你有哪些解决方法？” “如果你想用 VLA 控制一个机械臂抓取物体，数据怎么采集？如何处理动作滞后？” 改进方向 准备一个 VLA 模型的最小复现（如 OpenVLA &#43; LIBERO 基准） 加强对 Domain Randomization 和 System Identification 的实践 </p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-07-05 00:00:00 +0000 UTC'>July 5, 2026</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>57 words</span>&nbsp;·&nbsp;<span>detem123</span></footer>
+  <a class="entry-link" aria-label="post link to 面试复盘：具身智能 VLA 算法岗" href="http://localhost:1313/posts/interview-vla/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">具身智能学习资源精选（来自 Embodied-AI-Guide）
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>核心课程 现代机器人学（西北大学）：Coursera CS285 深度强化学习：Berkeley 李宏毅强化学习：Bilibili 必读论文（VLA方向） RT-2：Vision-Language-Action Models OpenVLA：开源 VLA 基准 Diffusion Policy：扩散模型用于动作生成 π0：Flow-based diffusion VLA 常用仿真器 Isaac Sim（NVIDIA） MuJoCo &#43; robosuite Genesis（新生代高速仿真器） 数据集 Open X-Embodiment AgiBot World（智元） LIBERO（终身学习基准） 公众号推荐 石麻日记、机器之心、具身智能之心、自动驾驶之心 </p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-07-01 00:00:00 +0000 UTC'>July 1, 2026</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>31 words</span>&nbsp;·&nbsp;<span>detem123</span></footer>
+  <a class="entry-link" aria-label="post link to 具身智能学习资源精选（来自 Embodied-AI-Guide）" href="http://localhost:1313/posts/embodied-ai-resources/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">无人机强化学习避障项目总结
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>项目背景 作为空天机械方向的研究生，我对无人机自主飞行充满兴趣。本项目使用深度强化学习训练四旋翼在未知障碍环境中完成高速避障。
+仿真环境 基于 AirSim &#43; Unreal Engine 自定义森林场景，随机生成树木 算法 采用 SAC 算法，状态为单目 RGB 图像和 IMU 数据 奖励函数包含前进速度、碰撞惩罚、平滑性 实验结果 在陌生场景中成功率超过 85% 通过 domain randomization（光照、纹理变化）提高了 sim-to-real 潜力 踩坑记录 训练初期撞机过多导致探索不足，加入好奇心驱动缓解 AirSim 在 Windows 下性能不佳，迁移到 Linux &#43; Docker 后 FPS 提升 40% </p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-06-25 00:00:00 +0000 UTC'>June 25, 2026</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>39 words</span>&nbsp;·&nbsp;<span>detem123</span></footer>
+  <a class="entry-link" aria-label="post link to 无人机强化学习避障项目总结" href="http://localhost:1313/posts/drone-rl-project/"></a>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">我的具身智能学习笔记</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/">detem123 | 具身智能笔记</a></span> · 
 
     
     

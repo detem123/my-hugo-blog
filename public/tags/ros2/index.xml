@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ROS2 on 我的具身智能学习笔记</title>
+    <title>ROS2 on detem123 | 具身智能笔记</title>
     <link>http://localhost:1313/tags/ros2/</link>
-    <description>Recent content in ROS2 on 我的具身智能学习笔记</description>
+    <description>Recent content in ROS2 on detem123 | 具身智能笔记</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>zh-CN</language>
     <lastBuildDate>Sun, 19 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/ros2/index.xml" rel="self" type="application/rss+xml" />
     <item>
