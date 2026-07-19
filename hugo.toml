@@ -1,19 +1,35 @@
 baseURL = 'https://my-hugo-blog-psi.vercel.app/'
+languageCode = 'zh-CN'
 title = 'detem123 | 具身智能笔记'
 theme = 'PaperMod'
 
-[params.homeInfoParams]
-  title = "Hi，我是 detem123 👋"
-  content = "本科AI · 硕士空天机械 · 具身智能方向"
-
 [params]
-  socialIcons = [
-    { name = "github", url = "https://github.com/detem123" }
-  ]
+  author = "detem123"
+  defaultTheme = "auto"
   ShowReadingTime = true
   ShowWordCount = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowToc = true
+  TocOpen = true
+
+  customCSS = ["css/custom.css"]
+
+  socialIcons = [
+    { name = "github", url = "https://github.com/detem123" }
+  ]
+
+  [params.homeInfoParams]
+    title = "Hi，我是 detem123 👋"
+    content = "本科AI · 硕士空天机械 · 具身智能方向"
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
 
 [[menu.main]]
   name = "首页"
@@ -28,22 +44,21 @@ theme = 'PaperMod'
   url = "/tags"
   weight = 30
 [[menu.main]]
-  name = "关于"
-  url = "/about"
+  name = "搜索"
+  url = "/search"
   weight = 40
-  # 在 [params] 下添加
-  defaultTheme = "auto"  # 跟随系统，也可设为 "dark" 或 "light"
-
-[params]
-  customCSS = ["css/custom.css"]
-
-[markup]
-  [markup.highlight]
-    style = "dracula"  # 高亮主题：dracula, monokai, github 等
-    lineNos = true      # 显示行号
-    lineNumbersInTable = true
-    noClasses = false
 [[menu.main]]
   name = "友链"
   url = "/links"
   weight = 60
+[[menu.main]]
+  name = "关于"
+  url = "/about"
+  weight = 50
+
+[markup]
+  [markup.highlight]
+    style = "dracula"
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
