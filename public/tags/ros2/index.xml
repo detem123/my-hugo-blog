@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ROS2 on 我的具身智能学习笔记</title>
+    <link>http://localhost:1313/tags/ros2/</link>
+    <description>Recent content in ROS2 on 我的具身智能学习笔记</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ros2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ROS2 小车自主导航项目</title>
+      <link>http://localhost:1313/posts/ros2-car/</link>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ros2-car/</guid>
+      <description>&lt;h2 id=&#34;项目简介&#34;&gt;项目简介&lt;/h2&gt;
+&lt;p&gt;本项目实现了基于 ROS2 Humble 的差速小车自主导航，使用了 Nav2 框架和 Cartographer SLAM。&lt;/p&gt;
+&lt;h2 id=&#34;硬件平台&#34;&gt;硬件平台&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;树莓派 4B&lt;/li&gt;
+&lt;li&gt;RPLIDAR A1&lt;/li&gt;
+&lt;li&gt;直流减速电机 + 编码器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;软件栈&#34;&gt;软件栈&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 22.04&lt;/li&gt;
+&lt;li&gt;ROS2 Humble&lt;/li&gt;
+&lt;li&gt;Nav2&lt;/li&gt;
+&lt;li&gt;Cartographer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;踩坑记录&#34;&gt;踩坑记录&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;编码器噪声导致里程计漂移，通过扩展卡尔曼滤波融合 IMU 解决&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

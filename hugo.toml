@@ -1,0 +1,35 @@
+baseURL = 'https://example.com/'
+title = '你的名字 | 具身智能笔记'
+theme = 'PaperMod'
+
+[params.homeInfoParams]
+  title = "Hi，我是[你的名字] 👋"
+  content = "本科AI · 硕士空天机械 · 具身智能方向"
+
+[params]
+  socialIcons = [
+    { name = "github", url = "https://github.com/你的用户名" },
+    { name = "email", url = "mailto:你的邮箱" }
+  ]
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+# 顶部菜单
+[[menu.main]]
+  name = "首页"
+  url = "/"
+  weight = 10
+[[menu.main]]
+  name = "归档"
+  url = "/archives"
+  weight = 20
+[[menu.main]]
+  name = "标签"
+  url = "/tags"
+  weight = 30
+[[menu.main]]
+  name = "关于"
+  url = "/about"
+  weight = 40
